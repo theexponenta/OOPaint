@@ -29,5 +29,10 @@ namespace OOPaint.Shapes
         {
             throw new NotImplementedException();
         }
+
+        public override void Deserialize(byte[] data)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
