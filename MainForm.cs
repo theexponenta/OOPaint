@@ -74,6 +74,11 @@ namespace OOPaint
             addShape(new Polygon(chosenColor, defaultLineWidth, points));
         }
 
+        private void rectangleToolButton_Click_1(object sender, EventArgs e)
+        {
+            addShape(new RectangleShape(chosenColor, defaultLineWidth, 100, 200, 300, 300));
+        }
+
         private void pickColorButton_Click(object sender, EventArgs e)
         {
             if (colorDialog.ShowDialog() == DialogResult.OK)
